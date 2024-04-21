@@ -9,7 +9,7 @@ const Detailpage = () => {
     <div className='maintext'
       style={{ backgroundImage: `url(${image})` }}>
       <h1 >{head}</h1>
-      <div className='d-flex'>
+      <div className='d-flex text2'>
         <p > <FaStar className='icon' /> {rate}/10 <TbPointFilled /> {vote} Reviews  <TbPointFilled /> {date.slice(0, 4)} </p>
       </div>
       <p className='detail'>{details}</p>
