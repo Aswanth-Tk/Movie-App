@@ -1,0 +1,86 @@
+.title {
+  color: orange;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.title:hover {
+  color: orange;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.title:focus {
+  color: orange;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.head {
+  color: black;
+  font-size: 22px;
+}
+
+.card1 {
+  border: none;
+  width: 15rem;
+  float: left;
+  margin: 50px 68px;
+}
+
+.card1:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.card2 {
+  height: 350px;
+  border: 1px solid white;
+}
+
+.body {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://isquad.tv/wp-content/uploads/2018/08/Netflix-Background.jpg");
+  height: 305vh;
+}
+
+.navbar {
+  background: linear-gradient(to right, orange, black, black);
+}
+
+.maintext {
+  color: white;
+  padding-left: 150px;
+  height: 100vh;
+  background-size: 100% 100%;
+
+
+}
+
+.maintext h1 {
+  font-family: fantasy;
+  padding-Top: 100px;
+  font-size: 50px;
+}
+
+.detail {
+  color: rgba(255, 255, 255, 0.7);
+  width: 25%;
+}
+
+.icon {
+  color: yellow;
+  margin-bottom: 5px;
+}
+
+.banner {
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 100%;
+}
+
+.banner h1 {
+  font-size: 50px;
+  color: white;
+  font-family: fantasy;
+}
