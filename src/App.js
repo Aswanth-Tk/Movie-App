@@ -16,6 +16,11 @@ function App() {
   const [rate, setrate] = useState([]);
   const [date, setdate] = useState([]);
   const [nav, setnav] = useState(true);
+  const [movie, setmovie] = useState([]);
+  const [data, setdata] = useState([]);
+  const [search, setsearch] = useState([]);
+  const [searchbar, setsearchbar] = useState(false)
+
   return (
     <div >
       <Samplecontext.Provider value={{
@@ -26,6 +31,10 @@ function App() {
         rate, setrate,
         date, setdate,
         nav, setnav,
+        movie, setmovie,
+        data, setdata,
+        search, setsearch,
+        searchbar, setsearchbar
       }}>
         <BrowserRouter>
           <Main />

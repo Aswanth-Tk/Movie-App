@@ -90,3 +90,18 @@
   text-shadow: 2px 2px 20px rgb(0, 0, 0);
   font-family: fantasy;
 }
+.searchbar{
+  margin-left: 20px;
+  background-color: black;
+  border: 1px solid orange;
+  height: 20px;
+  width: 150px;
+  color: white;
+}
+.searchbar:focus{
+ outline:none
+}
+.searchbar::placeholder{
+  padding-left: 5px;
+  color: rgb(179, 178, 178);
+}
